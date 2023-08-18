@@ -27,6 +27,7 @@ namespace Lucky_Draw
             }
             else
             {
+                rchtxtoutput.Clear();
                 for (int i = 0; i < 5; i++)
                 {
                     int nmbr = rand.Next(0, 20);
